@@ -1,0 +1,22 @@
+body {
+    background-color: #ddd7c5;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-family: "Bagel Fat One", system-ui, sans-serif;
+    color: #33595e;
+    font-size: 30px;
+
+}
+
+img {
+    max-width: 90px;
+    max-height: 128px;
+    rotate: 21.54deg;
+    margin-top: 12px;
+    margin-left: 5px;
+
+}
