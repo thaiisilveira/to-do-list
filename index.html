@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To do list</title>
+   <link rel="stylesheet" href="style.css">
+   <div id="titulo">
+       <h1>to do list</h1>
+   </div>
+<div class="tarefas">
+   <div id="inserir-tarefas">
+       <input type="text" id="texto" placeholder="Nova tarefa...">
+       <p onclick="addElemento()" id="botaoAdd">Adicionar</p>
+       <h2 id="titulo-tarefas">Tarefas:</h2>
+   </div>
+   <div id="bloco-tarefas">
+       <ul id="lista">
+           <li class="concluido">Estudar</li>
+           <li>Levar cachorro para passear</li>
+           <li>Terminar projeto</li>
+           <li class="concluido">Ir ao mercado</li>
+           <li>Arrumar a cama</li>
+       </ul>
+   </div>
+</div>
+<div id="final">
+<footer>Desenvolvido por <a href="https://github.com/thaiisilveira" target="_blank">Thainá Silveira</a> </footer>
+</div>
+</head>
+<body>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
