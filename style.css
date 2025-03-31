@@ -1,5 +1,6 @@
 body {
-    background-color: #ddd7c5;
+    background-color: #FDF1DD;
+    box-sizing: border-box;
 }
 
 #titulo {
@@ -19,4 +20,97 @@ img {
     margin-top: 12px;
     margin-left: 5px;
 
+}
+
+#tarefas {
+    background-color: #D9D9D9;
+    border: 8px solid #FFFFFF;
+    padding-top: 20px;
+    margin-left: 25em;
+    margin-right: 25em;
+    padding-bottom: 50px;
+}
+
+#inserir-tarefas{
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+  box-shadow: 5px 2px 5px 0px #AFA994;
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 90%;
+  text-align: center;
+  font-family: "Englebert", cursive, sans-serif;
+  font-size: 15px;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+#titulo-tarefas {
+    font-family: "Bagel Fat One", system-ui, sans-serif;
+    color: #33595e;
+    font-size: 30px;
+}
+
+#botaoAdd, #titulo-tarefas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloco-tarefas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow-y: 100px;
+    flex-wrap: wrap;
+}
+
+#lista li {
+    background-color: #D9D9D9;
+    margin-bottom: 8px;
+    width: 280px;
+    height: 20px;
+}
+
+ul li {
+    cursor: pointer;
+    list-style-type: none;
+    color: #33595e;
+    padding: 10px;
+}
+
+
+.concluido {
+    color: #AFA994;
+    text-decoration: line-through;
+}
+
+#botaoAdd {
+    background-color: #33595e;
+    margin-left: 230px;
+    margin-right: 230px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: "Englebert", cursive, sans-serif;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 35px;
 }
