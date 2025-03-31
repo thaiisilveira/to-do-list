@@ -5,36 +5,52 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>To do list</title>
    <link rel="stylesheet" href="style.css">
-   <div id="titulo">
-       <h1>to do list!</h1>
-       <img src="Notes.svg" alt="bloco">
-       <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Englebert&display=swap');
-        </style>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-   </div>
-<div id="tarefas">
-   <div id="inserir-tarefas">
-       <input type="text" id="texto" placeholder="Nova tarefa...">
-   </div>
-   <p onclick="addElemento()" id="botaoAdd">Adicionar</p>
-   <h2 id="titulo-tarefas">Tarefas:</h2>
-   <div id="bloco-tarefas">
-       <ul id="lista">
-           <li class="concluido">Estudar</li>
-           <li>Levar cachorro para passear</li>
-           <li>Terminar projeto</li>
-           <li class="concluido">Ir ao mercado</li>
-           <li>Arrumar a cama</li>
-       </ul>
-   </div>
-</div>
-<div id="final">
-<footer>Desenvolvido por <a href="https://github.com/thaiisilveira" target="_blank">Thainá Silveira</a> </footer>
-</div>
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Englebert&display=swap');
+   </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-  <script src="script.js" defer></script>
+
+    <div id="titulo">
+        <h1>To do list!</h1>
+        <img src="Notes.svg" alt="bloco">
+    </div>
+
+    <div id="tarefas">
+        <div id="inserir-tarefas">
+            <input type="text" id="texto" placeholder="Nova tarefa...">
+        </div>
+        <p id="botaoAdd">Adicionar</p>
+        <h2 id="titulo-tarefas">Tarefas:</h2>
+        <div id="bloco-tarefas">
+            <ul id="lista">
+                <li>
+                    <input type="checkbox" onclick="marcarConcluido(this)">
+                    <span>Estudar</span>
+                    <i class="fa-solid fa-trash" onclick="removerTarefa(this)"></i>
+                </li>
+                <li>
+                    <input type="checkbox" onclick="marcarConcluido(this)">
+                    <span>Levar cachorro para passear</span>
+                    <i class="fa-solid fa-trash" onclick="removerTarefa(this)"></i>
+                </li>
+                <li>
+                    <input type="checkbox" onclick="marcarConcluido(this)">
+                    <span>Terminar projeto</span>
+                    <i class="fa-solid fa-trash" onclick="removerTarefa(this)"></i>
+                </li>
+                <li>
+                    <input type="checkbox" onclick="marcarConcluido(this)">
+                    <span>Ir ao mercado</span>
+                    <i class="fa-solid fa-trash" onclick="removerTarefa(this)"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>Desenvolvido por <a href="https://github.com/thaiisilveira" target="_blank">Thainá Silveira</a></footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
-

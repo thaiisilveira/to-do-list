@@ -1,6 +1,10 @@
 body {
     background-color: #FDF1DD;
+    font-family: "Englebert", sans-serif;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
 }
 
 #titulo {
@@ -60,6 +64,7 @@ input[type=text]:focus{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #bloco-tarefas {
@@ -71,19 +76,36 @@ input[type=text]:focus{
     background-color: #FFFFFF;
     margin-left: 25px;
     margin-right: 25px;
-    overflow-y: 100px;
-    flex-wrap: wrap;
+    overflow-y: auto;
+    border-radius: 5px;
 }
 
 #lista li {
     background-color: #D9D9D9;
-    margin-bottom: 8px;
-    width: 280px;
-    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fa-trash {
+    margin-left: 10px;
+    color: #33595e;
+    cursor: pointer;
+}
+
+.fa-trash:hover {
+    color: #4f8a92;
 }
 
 ul li {
-    cursor: pointer;
     list-style-type: none;
     color: #33595e;
     padding: 10px;
@@ -105,7 +127,11 @@ ul li {
     color: #FFFFFF;
     padding-left: 35px;
     padding-right: 35px;
-    
+    cursor: pointer;
+}
+
+#botaoAdd:hover{
+    background-color: #4f8a92;
 }
 
 footer{
