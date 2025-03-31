@@ -30,9 +30,10 @@ img {
     background-color: #D9D9D9;
     border: 8px solid #FFFFFF;
     padding-top: 20px;
-    margin-left: 25em;
-    margin-right: 25em;
     padding-bottom: 50px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
 }
 
 #inserir-tarefas{
@@ -60,7 +61,7 @@ input[type=text]:focus{
     font-size: 30px;
 }
 
-#botaoAdd, #titulo-tarefas {
+#titulo-tarefas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,14 +71,16 @@ input[type=text]:focus{
 #bloco-tarefas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-size: 16px;
     background-color: #FFFFFF;
     margin-left: 25px;
     margin-right: 25px;
-    overflow-y: auto;
     border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 90%;
+    padding: 10px;
 }
 
 #lista li {
@@ -88,6 +91,12 @@ input[type=text]:focus{
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    height: auto;
+}
+
+#lista {
+    width: 90%;
+    margin-right: 20px;
 }
 
 input[type="checkbox"] {
@@ -112,21 +121,18 @@ ul li {
 }
 
 
-.concluido {
-    color: #AFA994;
-    text-decoration: line-through;
-}
-
 #botaoAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 10px auto;
     background-color: #33595e;
-    margin-left: 230px;
-    margin-right: 230px;
     height: 35px;
     border-radius: 8px;
     font-family: "Englebert", cursive, sans-serif;
     color: #FFFFFF;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 0 35px;
     cursor: pointer;
 }
 
@@ -139,4 +145,7 @@ footer{
     justify-content: center;
     align-items: end;
     margin-top: 35px;
+    background-color: #AFA994;
 }
+
+
