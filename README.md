@@ -10,9 +10,9 @@ Lista de tarefas simples e funcional com HTML, CSS e Javascript.
   O projeto está hospedado no GitHub Pages, e você pode acessá-lo [clicando aqui!](https://thaiisilveira.github.io/to-do-list/)
 
 ## 📷 Captura de imagem 
-![image](https://github.com/user-attachments/assets/b3fff8df-c77e-474b-b89e-eb5b5928410a)
+![image](https://github.com/user-attachments/assets/6f1de4b5-5081-4d92-9c5d-fc2ae115cf81)
 
 ## 🤗 Agradecimentos
-  Agradeço às diversas plataformas e recursos incríveis que me ensinaram o que até agora sei sobre desenvolvimento frontend, como **FreeCodeCamp, Codecademy, W3Schools, BroCode e Curso em Vídeo.**, além do GitHub e Visual Studio Code!📚
+  Agradeço às diversas plataformas e recursos incríveis que me ensinaram o que até agora sei sobre desenvolvimento frontend, como **FreeCodeCamp, Codecademy, W3Schools, BroCode e Curso em Vídeo**, além do GitHub e Visual Studio Code!📚
   
   Agradeço também ao meu namorado incrível e futuro analista de dados, André, que jamais deixou de acreditar em mim, me ajudar e apoiar 🩷.
