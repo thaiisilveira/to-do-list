@@ -74,29 +74,29 @@ input[type=text]:focus{
     align-items: center;
     font-size: 16px;
     background-color: #FFFFFF;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: auto;
     border-radius: 5px;
     max-height: 200px;
     overflow-y: auto;
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    max-width: 90%;
+    padding: 8px;
 }
 
 #lista li {
     background-color: #D9D9D9;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
     height: auto;
 }
 
 #lista {
-    width: 90%;
-    margin-right: 20px;
+    width: 100%;
+    margin: auto;
 }
 
 input[type="checkbox"] {
@@ -122,6 +122,9 @@ ul li {
 
 
 #botaoAdd {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +141,22 @@ ul li {
 
 #botaoAdd:hover{
     background-color: #4f8a92;
+}
+
+@media (max-width: 480px) {
+    #tarefas {
+        width: 95%;
+    }
+    #bloco-tarefas {
+        width: 100%;
+        max-width: 95%;
+        padding: 8px
+    }
+    #lista li {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
 }
 
 footer{
